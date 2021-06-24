@@ -23,7 +23,7 @@ os.system('pip3 install MarkupSafe --user')
 os.system('pip3 install Werkzeug --user')
 
 
-webbrowser.open('127.0.0.1:5000'
+webbrowser.open('127.0.0.1:5000')
 
 
 
