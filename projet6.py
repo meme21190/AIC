@@ -24,7 +24,8 @@ os.system('pip3 install Werkzeug --user')
 
 
 webbrowser.open('127.0.0.1:5000')
-
+os.chdir('/home/test/projet6/sample-webapp/')
+os.system('python3 app.py')
 
 
 
