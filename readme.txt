@@ -26,7 +26,6 @@ On install pip
 os.system('sudo apt install -y python3-pip')
 
 On installe le packages requis par le faux site
-os.system('pip3 install rdflib')
 os.system('pip3 install click --user')
 os.system('pip3 install Flask --user')
 os.system('pip3 install gunicorn --user')
