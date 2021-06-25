@@ -18,7 +18,8 @@ os.system('git clone https://github.com/venkatesannaveen/sample-webapp')
 on va créer le dossier du projet, ici projet6
 os.system('mkdir projet6')
 
-On déplace le dossier sample-webapp dans le dossier du projet6 
+On déplace le dossier sample-webapp dans le dossier du projet6
+Le nom de l'utilisateur, ici admin1, doit être adapté à votre nom d'utilisateur
 os.system('mv /home/admin1/sample-webapp/ /home/admin1/projet6/sample-webapp/')
 
 On install pip 
@@ -37,10 +38,12 @@ os.system('pip3 install Werkzeug --user')
 On ouvre notre navigateur sur la page demander
 webbrowser.open('127.0.0.1:5000')
 
-Dans le terminal on se rend dans le dossier sample-webapp
-cd /home/admin1/projet6/sample-webapp/
+On se rend dans le dossier sample-webapp
+Le nom de l'utilisateur, ici admin1, doit être adapté à votre nom d'utilisateur
+os.chdir('/home/admin1/projet6/sample-webapp/')
 
-Puis on lance le script app.py
-python3 app.py
+On lance le script app.py
+os.system('python3 app.py')
 
+Il faut attendre quelques secondes que le script "app.py" se lance.
 Il faut rafraichir la page que le navigateur à ouvert pour voir le compteur s'afficher puis il faut cliquer sur actualisr
