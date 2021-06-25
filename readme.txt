@@ -1,4 +1,4 @@
-Les commandes faites sur le serveur Debian pour l’installation d’un faux site web, qui compte le nombre de visite.
+Les commandes faites sur la vm Debian graphique pour l’installation d’un faux site web, qui compte le nombre de visite.
 
 Il y a juste à lancer le fichier projet6.py avec la commande :
 python3 projet6.py
