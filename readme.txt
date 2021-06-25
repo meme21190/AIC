@@ -18,7 +18,7 @@ os.system('git clone https://github.com/venkatesannaveen/sample-webapp')
 on va créer le dossier du projet, ici projet6
 os.system('mkdir projet6')
 
-On déplace le dossier sample-webapp dans le dossier du projet6 que l’on aura créé avec les commande qui sont dans le requierement.txt
+On déplace le dossier sample-webapp dans le dossier du projet6 
 os.system('mv /home/admin1/sample-webapp/ /home/admin1/projet6/sample-webapp/')
 
 On install pip 
