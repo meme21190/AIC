@@ -45,4 +45,11 @@ On lance le script app.py
 os.system('python3 app.py')
 
 Il faut attendre quelques secondes que le script "app.py" se lance.
-Il faut rafraichir la page que le navigateur à ouvert pour voir le compteur s'afficher puis il faut cliquer sur actualisr
+Il faut rafraichir la page que le navigateur à ouvert pour voir le compteur s'afficher puis il faut cliquer sur actualiser
+
+On retourne dans le dossier ou se trouve le script
+os.chdir('/home/admin1/')
+
+On lance le script log.py qui va nous dire si tous c'est bien passer ou non et il créera un fichier de log nommé projet6.log
+os.system('python3 log.py')
+
